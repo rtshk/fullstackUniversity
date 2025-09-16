@@ -3,70 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <title>Ritesh Kumar - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-gray-100 text-gray-800 font-sans">
 
-    <h1>Ritesh Kumar</h1>
-    <h3>Computer Science Engineering Student</h3>
-    <p>Email: ritesh@example.com</p>
-    <p>Phone: +91-9876543210</p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/ritesh" target="_blank">linkedin.com/in/ritesh</a></p>
-    <p>GitHub: <a href="https://github.com/ritesh-cse" target="_blank">github.com/ritesh-cse</a></p>
+    <div class="max-w-4xl mx-auto p-6">
+        <header class="text-center mb-10">
+            <h1 class="text-4xl font-bold text-gray-900">Ritesh Kumar</h1>
+            <h3 class="text-xl text-gray-600">Computer Science Engineering Student</h3>
+            <p class="mt-2">📧 <a href="mailto:ritesh@example.com" class="text-blue-500 hover:underline">riteshnzee@gmail.com</a></p>
+            <p>📞 +91-9350241363</p>
+            <p>
+                <a href="www.linkedin.com/in/rtshkr" target="_blank" class="text-blue-500 hover:underline">LinkedIn</a> |
+                <a href="https://github.com/rtshk" target="_blank" class="text-blue-500 hover:underline">GitHub</a>
+            </p>
+        </header>
 
-    <hr>
+        <hr class="border-gray-300 mb-6">
 
-    <h2>About Me</h2>
-    <p>I am a passionate Computer Science student with a strong interest in web development, algorithms, and open-source contributions. Always eager to learn new technologies and solve real-world problems through code.</p>
+        <section class="mb-10">
+            <h2 class="text-2xl font-semibold mb-2 border-b pb-1">About Me</h2>
+            <p class="text-gray-700">I am a passionate Computer Science student with a strong interest in web development, algorithms, and open-source contributions. Always eager to learn new technologies and solve real-world problems through code.</p>
+        </section>
 
-    <hr>
+        <section class="mb-10">
+            <h2 class="text-2xl font-semibold mb-4 border-b pb-1">Projects</h2>
+            <ul class="space-y-4">
+                <li class="bg-white p-4 shadow rounded">
+                    <strong>Weather App:</strong> A React-based app that fetches weather data using OpenWeatherMap API.
+                </li>
+                <li class="bg-white p-4 shadow rounded">
+                    <strong>Student Portal:</strong> Built using Node.js, Express, and MongoDB to manage student records.
+                </li>
+                <li class="bg-white p-4 shadow rounded">
+                    <strong>Portfolio Website:</strong> This very portfolio you're reading right now.
+                </li>
+            </ul>
+        </section>
 
-    <h2>Projects</h2>
-    <ul>
-        <li>
-            <strong>Weather App:</strong> A React-based app that fetches weather data using OpenWeatherMap API.
-        </li>
-        <li>
-            <strong>Student Portal:</strong> Built using Node.js, Express, and MongoDB to manage student records.
-        </li>
-        <li>
-            <strong>Portfolio Website:</strong> This very portfolio you're reading right now.
-        </li>
-    </ul>
+        <section class="mb-10">
+            <h2 class="text-2xl font-semibold mb-4 border-b pb-1">Skills</h2>
+            <ul class="grid grid-cols-2 gap-3 text-gray-700">
+                <li>Languages: C++, JavaScript, Python</li>
+                <li>Web: HTML, CSS, React, Node.js, Express</li>
+                <li>Tools: Git, VS Code, Linux</li>
+                <li>Other: DSA, DBMS, OS, CN</li>
+            </ul>
+        </section>
 
-    <hr>
+        <section class="mb-10">
+            <h2 class="text-2xl font-semibold mb-4 border-b pb-1">Education</h2>
+            <ul class="space-y-2 text-gray-700">
+                <li><strong>B.E in Computer Science</strong> – Chandigarh University (2023 - 2027)</li>
+                <li>Current CGPA: 8</li>
+                <li>12th (CBSE) – 95%</li>
+                <li>10th (CBSE) – 94%</li>
+            </ul>
+        </section>
 
-    <h2>Skills</h2>
-    <ul>
-        <li>Languages: C++, JavaScript, Python</li>
-        <li>Web: HTML, CSS, React, Node.js, Express</li>
-        <li>Tools: Git, VS Code, Linux</li>
-        <li>Other: Data Structures & Algorithms, DBMS, OS, CN</li>
-    </ul>
+        <section class="mb-10">
+            <h2 class="text-2xl font-semibold mb-4 border-b pb-1">Achievements</h2>
+            <ul class="list-disc list-inside text-gray-700 space-y-1">
+                <li>Solved 300+ problems on LeetCode</li>
+                <li>Ranked in top 10% in CodeChef Starters</li>
+                <li>Selected for Google Summer of Code 2025 (Contributor)</li>
+            </ul>
+        </section>
 
-    <hr>
-
-    <h2>Education</h2>
-    <ul>
-        <li><strong>B.Tech in Computer Science</strong> – XYZ University (2022 - 2026)</li>
-        <li>Current CGPA: 8.9</li>
-        <li>12th (CBSE) – 92%</li>
-        <li>10th (CBSE) – 94%</li>
-    </ul>
-
-    <hr>
-
-    <h2>Achievements</h2>
-    <ul>
-        <li>Solved 300+ problems on LeetCode</li>
-        <li>Ranked in top 10% in CodeChef Starters</li>
-        <li>Selected for Google Summer of Code 2025 (Contributor)</li>
-    </ul>
-
-    <hr>
-
-    <h2>Contact Me</h2>
-    <p>Email: ritesh@example.com</p>
-    <p>Feel free to reach out for collaboration or project discussions.</p>
+        <section>
+            <h2 class="text-2xl font-semibold mb-2 border-b pb-1">Contact Me</h2>
+            <p class="text-gray-700">📧 Email: <a href="mailto:riteshnzee@gmail.com" class="text-blue-500 hover:underline">ritesh@example.com</a></p>
+            <p class="text-gray-700 mt-1">Feel free to reach out for collaboration or project discussions.</p>
+        </section>
+    </div>
 
 </body>
 </html>
